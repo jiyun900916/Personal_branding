@@ -1,0 +1,21 @@
+@charset "utf-8";
+@import url(style.css);
+
+* {margin: 0;padding: 0; box-sizing: border-box;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 {font-weight: 400; font-size: inherit;}
+a {color: inherit; text-decoration: inherit;}
+img {vertical-align: middle;}
+a img {border: none;}
+li {list-style: none;}
+address, em, i {font-style: normal;}
+a:focus {outline: none}
+button:focus {outline: none}
+button, input, select, textarea {font-family: inherit; font-size: inherit; font-weight: inherit;}
+button, input {line-height: normal;}
+input[type="checkbox"], input[type="radio"] {padding: 0; line-height: normal;}
+input[type="text"], input[type="password"], input[type="file"], input[type="number"], input[type="email"], input[type="search"], textarea, select {font-family: inherit; font-size: inherit; font-weight: inherit; line-height: normal;}
+fieldset {border: 1px solid #c0c0c0; margin: 0; padding: 0.35em 0.625em 0.75em;}
+legend {padding: 0; border: 0; display: block; width: 100%; box-sizing: border-box; white-space: normal; font-size: 1.2em; font-weight: bold;}      
+
+

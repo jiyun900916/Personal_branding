@@ -1,0 +1,99 @@
+/* 기본 세팅 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard', sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background-color: #fdfdfd;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .inner {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+  }
+  
+  /* 타이틀 영역 */
+  .project-header {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+  .project-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .project-meta {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* 섹션 제목 */
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  /* 프리뷰 이미지 */
+  .project-preview .image-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .project-preview img {
+    width: 100%;
+    max-width: 48%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* 기능 리스트 */
+  .project-feature ul,
+  .project-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .project-feature li,
+  .project-links li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  /* 링크 스타일 */
+  .project-links a {
+    display: inline-block;
+    background: #eee;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .project-links a:hover {
+    background: #222;
+    color: #fff;
+  }
+  
+  /* 반응형 */
+  @media (max-width: 768px) {
+    .project-title {
+      font-size: 28px;
+    }
+    .project-preview img {
+      max-width: 100%;
+    }
+  }

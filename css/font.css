@@ -1,0 +1,26 @@
+@charset "utf-8";
+@import url(style.css);
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");/* font-family: "Pretendard Variable", sans-serif*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');/*  font-family: "Noto Sans KR", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');/* font-family: "Montserrat", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');/*  font-family: "Noto Serif", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');/* font-family: "Ibarra Real Nova", serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400..700&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+
+@font-face {
+    font-family: 'handel gothic';
+    src: url(../font/handel-gothic.ttf) format('truetype');
+   }/* font-family: 'Handel Gothic', sans-serif;  */ 
+
+
+   
+
